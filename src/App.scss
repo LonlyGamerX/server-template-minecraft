@@ -1,0 +1,115 @@
+@import "./styles/_variables.scss";
+
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  color: white;
+}
+
+#app {
+  background-image: url("./imgs/backgroundMain.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh; /* Set a minimum height to fill the viewport */
+  z-index: -2;
+  margin-bottom: -2.5rem; /* Offset by the height of the footer */
+}
+
+.white-outline {
+  border: 1px solid white;
+  border-radius: 15px;
+}
+
+.white-outline-none {
+  border: 1px solid white;
+}
+
+.white-underline {
+  border-bottom: 1px solid white;
+}
+
+.white-overline {
+  border-top: 1px solid white;
+}
+
+.gray-bg {
+  background-color: gray;
+}
+
+.imgWidth {
+  width: 15%;
+}
+
+.sm-txt {
+  font-size: 0.8rem;
+}
+
+.txt-gray {
+  color: gray;
+}
+
+//Navbar
+.navbar {
+  background-color: transparent !important;
+}
+
+//Home
+.server-users {
+  border-top: 1px solid white;
+  width: 50%;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.border-half {
+  border-top: 1px solid white;
+  width: 50%;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.borderNumber {
+  border: 2px solid gray;
+  border-radius: 5px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0%;
+}
+
+//Staff
+
+// Contact page
+input {
+  background-color: transparent !important;
+  color: white !important;
+}
+
+textarea {
+  background-color: transparent !important;
+  color: white !important;
+}
+
+select {
+  background-color: transparent !important;
+  color: white !important;
+}
+
+select option {
+  background-color: black !important;
+  color: white !important;
+}

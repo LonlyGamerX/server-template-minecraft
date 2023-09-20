@@ -1,0 +1,74 @@
+[
+  {
+    "id": 5160397,
+    "category": "Announcements",
+    "title": "Important Info Regarding the New Update V2.3",
+    "description": "Info about the new update",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget ultricies dolor.",
+    "date": "24-03-2022",
+    "pinned": true
+  },
+  {
+    "id": 5160398,
+    "category": "Support/help",
+    "title": "Thread 2",
+    "description": "description 2",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget ultricies dolor.",
+    "date": "23-03-2022",
+    "pinned": false
+  },
+  {
+    "id": 5160399,
+    "category": "Guides",
+    "title": "Thread 3",
+    "description": "description 3",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget ultricies dolor.",
+    "date": "22-03-2022",
+    "pinned": false
+  },
+  {
+    "id": 5160400,
+    "category": "General questions",
+    "title": "Thread 4",
+    "description": "description 4",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget ultricies dolor.",
+    "date": "21-03-2022",
+    "pinned": false
+  },
+  {
+    "id": 5160401,
+    "category": "Minigames requests",
+    "title": "Thread 5",
+    "description": "description 5",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget ultricies dolor.",
+    "date": "20-03-2022",
+    "pinned": false
+  },
+  {
+    "id": 5160402,
+    "category": "Marketplace",
+    "title": "Thread 6",
+    "description": "description 6",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget ultricies dolor.",
+    "date": "19-03-2022",
+    "pinned": false
+  },
+  {
+    "id": 5160403,
+    "category": "General",
+    "title": "Thread 7",
+    "description": "description 7",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget ultricies dolor.",
+    "date": "18-03-2022",
+    "pinned": false
+  },
+  {
+    "id": 5160404,
+    "category": "General",
+    "title": "Thread 8",
+    "description": "description 8",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget ultricies dolor.",
+    "date": "19-04-2022",
+    "pinned": true
+  }
+]

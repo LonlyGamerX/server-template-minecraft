@@ -30,7 +30,7 @@ const Forms = () => {
     const sortedThreads = threadsData
       .filter((thread) => thread.category === selectedCategory)
       .sort((a, b) => {
-        // Sort by pinned status first
+        // Sort pinned threads to the top
         if (a.pinned && !b.pinned) {
           return -1;
         } else if (!a.pinned && b.pinned) {
@@ -50,7 +50,7 @@ const Forms = () => {
         {selectedCategory}
       </h1>
       <div className="row">
-        <div className="col-lg-3">
+        <div className="col-md-3">
           <div className="d-flex flex-column">
             {categories.map((category, index) => (
               <button
@@ -68,17 +68,17 @@ const Forms = () => {
             ))}
           </div>
         </div>
-        <div className="col-lg-9">
+        <div className="col-md-9">
           <div className="d-flex flex-column">
             {threads.map((thread) => (
               <Nav.Link
                 href={`/${selectedCategory}/${thread.id}`}
                 key={thread.id}
               >
-                <div className="white-outline-none mb-2">
-                  <h2>{thread.title}</h2>
-                  <p>{thread.description}</p>
-                  <p className="small txt-gray">Posted on {thread.date}</p>
+                <div className="white-outline bg-black mb-2">
+                  <h3 className="ms-2 mt-1">{thread.title}</h3>
+                  <p className="ms-2">{thread.description}</p>
+                  <p className="ms-2 small txt-gray">Posted on {thread.date}</p>
                 </div>
               </Nav.Link>
             ))}

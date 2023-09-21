@@ -1,25 +1,48 @@
 import { useState, useEffect } from "react";
 import StoreData from "../json/store.json";
 import redstone from "../imgs/redstone.png";
+import master from "../imgs/TNT.png";
+import diamond from "../imgs/diamond.png";
+import emerald from "../imgs/emerald.png";
+import gold from "../imgs/gold.png";
+import silver from "../imgs/silver.png";
+import bronze from "../imgs/bronze.png";
+import grandmaster from "../imgs/command-block.png";
+import platinum from "../imgs/platinum.png";
+
+const imageMap = {
+  redstone,
+  master,
+  diamond,
+  emerald,
+  gold,
+  silver,
+  bronze,
+  grandmaster,
+  platinum,
+};
 
 const Store = () => {
-  const [storecategoriesFirst, setStoreCategoriesFirst] = useState("Ranks");
   const [store, setStore] = useState([]);
   const [storecategories, setStoreCategories] = useState([]);
-  const [selected, setSelected] = useState("Ranks");
+  const [selected, setSelected] = useState("ranks");
 
   useEffect(() => {
     setStore(StoreData);
 
-    const storecategories = ["Ranks", "Crates", "Keys", "Cosmetics", "Other"];
+    const storecategories = ["ranks", "crates", "keys", "cosmetics", "other"];
     const uniqueStoreCategories = Array.from(new Set(storecategories));
     setStoreCategories(uniqueStoreCategories);
   }, []);
 
+  const filteredStore = store.filter(
+    (product) => product.category === selected
+  );
+
   return (
     <div className="container">
       <h1 className="text-center mb-3 text-decoration-underline">
-        {storecategoriesFirst}
+        {selected.charAt(0).toUpperCase() + selected.slice(1)}
       </h1>
       <div className="row">
         <div className="col-lg-3">
@@ -32,22 +55,25 @@ const Store = () => {
                 key={index}
                 onClick={() => {
                   setSelected(category);
-                  setStoreCategoriesFirst(category);
                 }}
               >
-                {category}
+                {category.charAt(0).toUpperCase() + category.slice(1)}
               </button>
             ))}
           </div>
         </div>
         <div className="col-lg-9">
-          <div className="row">
-            {store.map((product, index) => (
-              <div className="col-md-4" key={index}>
+          <div className="row" style={{ display: "flex", flexWrap: "wrap" }}>
+            {filteredStore.map((product, index) => (
+              <div
+                className="col-md-4"
+                key={index}
+                style={{ marginBottom: "15px" }}
+              >
                 <div className="card mb-2 text-center text-white">
-                  <div className="card-body">
+                  <div className="card-body" style={{ flex: 1 }}>
                     <img
-                      src={redstone}
+                      src={imageMap[product.name]}
                       alt={product.name}
                       className="img-fluid"
                     />
@@ -56,14 +82,17 @@ const Store = () => {
                         product.name.slice(1)}
                     </h3>
                     <p className="card-text txt-green">${product.price}</p>
-                    <div className="d-flex flex-column align-items-center">
-                      <button className="btn text-white bg-transparent white-outline mb-2 w-50">
-                        Info
-                      </button>
-                      <button className="btn text-white bg-transparent white-outline w-50">
-                        Buy
-                      </button>
-                    </div>
+                  </div>
+                  <div
+                    className="d-flex flex-column align-items-center"
+                    style={{ flex: "0 0 auto" }}
+                  >
+                    <button className="btn text-white bg-transparent white-outline mb-2 w-50">
+                      Info
+                    </button>
+                    <button className="btn text-white bg-transparent white-outline mb-2 w-50">
+                      Buy
+                    </button>
                   </div>
                 </div>
               </div>

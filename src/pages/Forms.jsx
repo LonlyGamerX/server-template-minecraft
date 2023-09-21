@@ -12,15 +12,15 @@ const Forms = () => {
     setThreads(threadsData);
 
     const categories = [
-      "Announcements",
-      "FAQ",
-      "General",
-      "Guides",
-      "Support/help",
-      "General questions",
-      "Server requests",
-      "Minigames ideas",
-      "Marketplace",
+      "announcements",
+      "fAQ",
+      "general",
+      "guides",
+      "support/help",
+      "general questions",
+      "server requests",
+      "minigames ideas",
+      "marketplace",
     ];
     const uniqueCategories = Array.from(new Set(categories));
     setCategories(uniqueCategories);
@@ -47,7 +47,7 @@ const Forms = () => {
   return (
     <div className="container">
       <h1 className="text-center mb-3 text-decoration-underline">
-        {selectedCategory}
+        {selectedCategory.charAt(0).toUpperCase() + selectedCategory.slice(1)}
       </h1>
       <div className="row">
         <div className="col-lg-3">
@@ -63,7 +63,7 @@ const Forms = () => {
                   setSelectedCategory(category);
                 }}
               >
-                {category}
+                {category.charAt(0).toUpperCase() + category.slice(1)}
               </button>
             ))}
           </div>

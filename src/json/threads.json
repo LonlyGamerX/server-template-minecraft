@@ -1,7 +1,7 @@
 [
   {
     "id": 5160397,
-    "category": "Announcements",
+    "category": "announcements",
     "title": "Important Info Regarding the New Update V2.3",
     "description": "Info about the new update",
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget ultricies dolor.",
@@ -10,7 +10,7 @@
   },
   {
     "id": 5160398,
-    "category": "Support/help",
+    "category": "support/help",
     "title": "Thread 2",
     "description": "description 2",
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget ultricies dolor.",
@@ -19,7 +19,7 @@
   },
   {
     "id": 5160399,
-    "category": "Guides",
+    "category": "guides",
     "title": "Thread 3",
     "description": "description 3",
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget ultricies dolor.",
@@ -28,7 +28,7 @@
   },
   {
     "id": 5160400,
-    "category": "General questions",
+    "category": "general questions",
     "title": "Thread 4",
     "description": "description 4",
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget ultricies dolor.",
@@ -37,7 +37,7 @@
   },
   {
     "id": 5160401,
-    "category": "Minigames requests",
+    "category": "minigames requests",
     "title": "Thread 5",
     "description": "description 5",
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget ultricies dolor.",
@@ -46,7 +46,7 @@
   },
   {
     "id": 5160402,
-    "category": "Marketplace",
+    "category": "marketplace",
     "title": "Thread 6",
     "description": "description 6",
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget ultricies dolor.",
@@ -55,7 +55,7 @@
   },
   {
     "id": 5160403,
-    "category": "General",
+    "category": "general",
     "title": "Thread 7",
     "description": "description 7",
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget ultricies dolor.",
@@ -64,7 +64,7 @@
   },
   {
     "id": 5160404,
-    "category": "General",
+    "category": "general",
     "title": "Thread 8",
     "description": "description 8",
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget ultricies dolor.",
@@ -73,7 +73,7 @@
   },
   {
     "id": 5160405,
-    "category": "General",
+    "category": "general",
     "title": "Thread 9",
     "description": "description 9",
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget ultricies dolor.",
@@ -82,7 +82,7 @@
   },
   {
     "id": 5160406,
-    "category": "General",
+    "category": "general",
     "title": "Thread 10",
     "description": "description 10",
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget ultricies dolor.",
@@ -91,7 +91,7 @@
   },
   {
     "id": 5160407,
-    "category": "General",
+    "category": "general",
     "title": "Thread 11",
     "description": "description 11",
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget ultricies dolor.",
@@ -100,7 +100,7 @@
   },
   {
     "id": 5160408,
-    "category": "General",
+    "category": "general",
     "title": "Thread 12",
     "description": "description 12",
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget ultricies dolor.",
@@ -109,7 +109,7 @@
   },
   {
     "id": 5160409,
-    "category": "General",
+    "category": "general",
     "title": "Thread 13",
     "description": "description 13",
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget ultricies dolor.",
@@ -118,7 +118,7 @@
   },
   {
     "id": 5160410,
-    "category": "General",
+    "category": "general",
     "title": "Thread 14",
     "description": "description 14",
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget ultricies dolor.",
@@ -127,7 +127,7 @@
   },
   {
     "id": 5160411,
-    "category": "General",
+    "category": "general",
     "title": "Thread 15",
     "description": "description 15",
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget ultricies dolor.",
@@ -136,7 +136,7 @@
   },
   {
     "id": 5160412,
-    "category": "General",
+    "category": "general",
     "title": "Thread 16",
     "description": "description 16",
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget ultricies dolor.",

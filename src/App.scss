@@ -17,11 +17,23 @@
   margin-bottom: -2.5rem; /* Offset by the height of the footer */
 }
 
+//Global
+
+.black-outline {
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+.black-outline:hover {
+  border: 1px solid black;
+  border-radius: 15px;
+  color: black;
+}
+
 .white-outline {
   border: 1px solid white;
   border-radius: 15px;
 }
-
 
 .white-outline-none {
   border: 1px solid white;
@@ -51,6 +63,10 @@
   color: gray;
 }
 
+.txt-green {
+  color: rgb(0, 241, 0) !important;
+}
+
 //Navbar
 .navbar {
   background-color: transparent !important;
@@ -75,7 +91,7 @@
   align-items: center;
 }
 
-.borderNumber {
+.borderGray {
   border: 2px solid gray;
   border-radius: 5px;
 }
@@ -93,6 +109,13 @@
 }
 
 //Staff
+
+// Forms
+
+//store
+.card {
+  background-color: black;
+}
 
 // Contact page
 input {

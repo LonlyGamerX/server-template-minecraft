@@ -1,0 +1,58 @@
+[
+  {
+    "id": 23131,
+    "category": "ranks",
+    "name": "bronze",
+    "price": 1.5,
+    "description": "bronze rank"
+  },
+  {
+    "id": 23132,
+    "category": "ranks",
+    "name": "silver",
+    "price": 5,
+    "description": "silver rank"
+  },
+  {
+    "id": 23133,
+    "category": "ranks",
+    "name": "gold",
+    "price": 10,
+    "description": "gold rank"
+  },
+  {
+    "id": 23135,
+    "category": "ranks",
+    "name": "platinum",
+    "price": 15,
+    "description": "platinum rank"
+  },
+  {
+    "id": 23134,
+    "category": "ranks",
+    "name": "diamond",
+    "price": 20,
+    "description": "diamond rank"
+  },
+  {
+    "id": 23135,
+    "category": "ranks",
+    "name": "emerald",
+    "price": 25,
+    "description": "emerald rank"
+  },
+  {
+    "id": 23136,
+    "category": "ranks",
+    "name": "master",
+    "price": 30,
+    "description": "master rank"
+  },
+  {
+    "id": 23137,
+    "category": "ranks",
+    "name": "grandmaster",
+    "price": 35,
+    "description": "grandmaster rank"
+  }
+]

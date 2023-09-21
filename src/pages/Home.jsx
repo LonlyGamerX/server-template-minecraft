@@ -6,11 +6,13 @@ const Home = () => (
     <div className="mt-5 container d-flex flex-column justify-content-center align-items-center">
       <h1 className="text-center">Join us at</h1>
       <div className="server-url">
-        <h5 className="text-center">Server IP: eu.tripewire.mc </h5>
+        <h5 className="text-center">
+          Server IP: <span className="gray-bg borderGray">eu.tripewire.mc</span>{" "}
+        </h5>
       </div>
       <div className="server-users">
         <h6 className="mt-2 sm-txt">
-          currently <span className="gray-bg borderNumber">500</span> players
+          currently <span className="gray-bg borderGray">500</span> players
           playing on the server atm
         </h6>
       </div>

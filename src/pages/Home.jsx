@@ -20,7 +20,7 @@ const Home = () => (
     <footer className="footer">
       <div className="container d-flex justify-content-center align-items-center">
         <div className="row border-half">
-          <div className="col-lg-2">
+          <div className="col-md-2">
             <a
               href="https://www.google.com"
               target="_blank"
@@ -29,7 +29,7 @@ const Home = () => (
               <BsFacebook />
             </a>
           </div>
-          <div className="col-lg-2">
+          <div className="col-md-2">
             <a
               href="https://www.google.com"
               target="_blank"
@@ -38,7 +38,7 @@ const Home = () => (
               <AiFillTwitterCircle />
             </a>
           </div>
-          <div className="col-lg-2">
+          <div className="col-md-2">
             <a
               href="https://www.google.com"
               target="_blank"

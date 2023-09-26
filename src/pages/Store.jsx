@@ -45,7 +45,7 @@ const Store = () => {
         {selected.charAt(0).toUpperCase() + selected.slice(1)}
       </h1>
       <div className="row">
-        <div className="col-lg-3">
+        <div className="col-md-3">
           <div className="d-flex flex-column">
             {storecategories.map((category, index) => (
               <button
@@ -62,7 +62,7 @@ const Store = () => {
             ))}
           </div>
         </div>
-        <div className="col-lg-9">
+        <div className="col-md-9">
           <div className="row" style={{ display: "flex", flexWrap: "wrap" }}>
             {filteredStore.map((product, index) => (
               <div

@@ -16,7 +16,7 @@ const ThreadsPage = () => {
     <>
       <div className="container">
         <div className="row">
-          <section className="col-lg-3 text-center me-3 white-outline bg-black">
+          <section className="col-md-3 text-center me-3 white-outline bg-black">
             <img
               src={user1}
               alt="user1 placeholder"
@@ -27,7 +27,7 @@ const ThreadsPage = () => {
             <p className="small">Rank: N/A</p>
             <p className="small">Joined on 25-02-1999</p>
           </section>
-          <section className="col-lg-8 white-outline bg-black">
+          <section className="col-md-8 white-outline bg-black">
             <h2>{thread.title}</h2>
             <p className="white-underline">{thread.description}</p>
             <p className="mt-2">{thread.content}</p>

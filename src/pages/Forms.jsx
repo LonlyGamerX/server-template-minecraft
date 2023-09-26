@@ -50,7 +50,7 @@ const Forms = () => {
         {selectedCategory.charAt(0).toUpperCase() + selectedCategory.slice(1)}
       </h1>
       <div className="row">
-        <div className="col-lg-3">
+        <div className="col-md-3">
           <div className="d-flex flex-column">
             {categories.map((category, index) => (
               <button
@@ -68,7 +68,7 @@ const Forms = () => {
             ))}
           </div>
         </div>
-        <div className="col-lg-9">
+        <div className="col-md-9">
           <div className="d-flex flex-column">
             {threads.map((thread) => (
               <Nav.Link

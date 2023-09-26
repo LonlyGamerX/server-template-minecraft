@@ -10,7 +10,7 @@ const Staff = () => {
     <div className="container mt-1">
       <h3 className="text-center text-white mb-5">Meet our staff!</h3>
       <div className="row">
-        <div className="col-lg-3 text-center">
+        <div className="col-md-3 text-center">
           <img
             src={user1}
             alt="user1"
@@ -19,7 +19,7 @@ const Staff = () => {
           <h4 className="text-white">Micheal_Fx2G</h4>
           <p className="text-white">Owner</p>
         </div>
-        <div className="col-lg-3 text-center">
+        <div className="col-md-3 text-center">
           <img
             src={user2}
             alt="user2"
@@ -28,7 +28,7 @@ const Staff = () => {
           <h4 className="text-white">Jonny413X</h4>
           <p className="text-white">Co-Owner</p>
         </div>
-        <div className="col-lg-3 text-center">
+        <div className="col-md-3 text-center">
           <img
             src={user3}
             alt="user3"
@@ -37,7 +37,7 @@ const Staff = () => {
           <h4 className="text-white">X_KanDeMK_X</h4>
           <p className="text-white">Admin</p>
         </div>
-        <div className="col-lg-3 text-center">
+        <div className="col-md-3 text-center">
           <img
             src={user4}
             alt="user4"
@@ -48,7 +48,7 @@ const Staff = () => {
         </div>
       </div>
       <div className="row mt-1">
-        <div className="col-lg-3 text-center">
+        <div className="col-md-3 text-center">
           <img
             src={user5}
             alt="user5"
